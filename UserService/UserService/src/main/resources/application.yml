@@ -16,6 +16,9 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQLDialect
 
+  application:
+    name: USER-SERVICE
+
 eureka:
   instance:
     prefer-ip-address: true
